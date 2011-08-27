@@ -1,0 +1,20 @@
+This is the Summoner Game designed to be played in the virtual world of Sirikata.
+
+To play the game, have one avatar in the world import SummonerInitEasy.em
+
+That avatar will become the game host. Now, all avatars that send a touch message
+by pressing 'enter' will get the game script sent to their entity. 
+
+The script will automatically run, and they will be in the game!
+
+There are currently a couple of bugs in the game. 
+
+For developers who are interested in changing the game:
+In each file, there is a short description of what the file is supposed to do.
+In each function, there is a short description of what it does.
+
+SummonerMonster.em handles all combat logic.
+SummonerMain.em initializes the whole script.
+SummonerNews.em sets up the listeners for messages for the player avatar.
+
+
